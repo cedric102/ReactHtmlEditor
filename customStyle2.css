@@ -1,0 +1,162 @@
+.colorRoot3 {
+    background-color: cyan;
+    color: black;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.top {
+    padding: 20px;
+    margin-bottom: -20px;
+    background-color: blue;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.center {
+    padding: 20px;
+    margin: 0px;
+    background-color: blue;
+}
+
+.bottom {
+    padding: 20px;
+    margin-top: -20px;
+    background-color: blue;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.activeButton {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 12px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid blue;
+}
+
+.activeButtonBottom {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: -12px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid blue;
+}
+
+.inactiveButton {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 12px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgba(0, 0, 255, 0.7);
+}
+
+.inactiveButtonBottom {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+    height: 50px;
+    position: relative;
+    top: -12px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgba(0, 0, 255, 0.7);
+}
+
+.firstOption {
+    color: white;
+}
+.flexMenuOffset2 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    width: 450px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.flexMenuOffset2 div a div div {
+    margin: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.dispButton {
+    position: relative;;
+    margin: auto;
+    width: fit-content;
+}
+.flexMenuOffset2 div a {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.outerDiv {
+    background-color:blue;
+    color: black;
+    width: 100%;
+    position: relative;
+}
+
+.innerDiv {
+    background-color: grey;
+    color: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    top: 0;
+}
+
+.innerDiv2 {
+    background-color: green;
+    color: black;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+}
+
+.elem {
+    background-color: cyan;
+    color: black;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    width: 33%;
+}
+.outerElem {
+    background-color: cyan;
+    color: black;
+    height: fit-content;
+    min-height: 100px;
+    padding: 10px;
+    position: relative;
+}
+
+.shootingDivs {
+    display: inline-block;
+}
